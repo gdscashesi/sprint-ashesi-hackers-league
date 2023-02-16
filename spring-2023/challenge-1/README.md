@@ -1,17 +1,41 @@
 # Challenge 1
 
----
-
 ```diff
-+ Date : 16/02/2023
++ Published : 16/02/2023
 - Deadline: 23/02/2023
 ```
 
+---
+
 ## Algorithms
 
+<br />
 ## Scripting
 
-how to access the internet with python?
+`Fred`, a student of Ashesi University wants to analyze his friend's `(Michael)` spending habits over the course of the semester. His idea is to log Michael's meal plan balance for each of morning, afternoon and evening to a spreadsheet.
+
+For now, he is focused on writing a `python script` that prints Michael's meal plan balance everytime its executed.
+
+> Can you write a script for this purpose?
+
+Executing the script in the terminal
+
+```sh
+$ ./meal_plan_balance.py
+```
+
+Example result
+
+```sh
+$ current balance : 80
+```
+
+#### Hints
+
+- Accessing the web via python (python's request module)
+- Inspecting network tab of the meal plan website for the API endpoint
+
+<br />
 
 ## SQL
 
@@ -24,7 +48,7 @@ Their database table is named `ValentinePackages` and has 4 columns:
 > `order_count`: number of orders for a package  
 > `price`: price of a package
 
-> What SQL query will they need to return the expected results.
+**_Write a SQL query will to return the expected results._**
 
 ### TABLE
 
