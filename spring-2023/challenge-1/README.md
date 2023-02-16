@@ -9,7 +9,42 @@
 
 ## Algorithms
 
+Given a square matrix `mat`, return the sum of the matrix diagonals.
+
+Only include the sum of all the elements on the `primary diagonal` and all the elements on the `secondary diagonal` that are not part of the primary diagonal.
+
+```py
+mat = [[1,2,3],[4,5,6],[7,8,9]]
+```
+
+```py
+mat = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+      ]
+```
+
+> Output: 25  
+> Explanation: Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25  
+> Notice that element `mat[1][1] = 5` is counted only once.
+
 <br />
+
+how your code would look like
+
+```py
+# diagonal_sum.py
+
+def diagonalSum(mat):
+    # some code here
+
+    # return ans
+
+```
+
+<br />
+
 ## Scripting
 
 `Fred`, a student of Ashesi University wants to analyze his friend's `(Michael)` spending habits over the course of the semester. His idea is to log Michael's meal plan balance for each of morning, afternoon and evening to a spreadsheet.
@@ -18,22 +53,24 @@ For now, he is focused on writing a `python script` that prints Michael's meal p
 
 > Can you write a script for this purpose?
 
+<br/>
+
 Executing the script in the terminal
 
 ```sh
 $ ./meal_plan_balance.py
 ```
 
-Example result
+Example Ouput
 
 ```sh
-$ current balance : 80
+$ current balance : 40
 ```
 
 #### Hints
 
-- Accessing the web via python (python's request module)
-- Inspecting network tab of the meal plan website for the API endpoint
+- Accessing the web via python code (python's request module)
+- Inspecting network tab of the meal plan website for the API endpoint to make requests to
 
 <br />
 
